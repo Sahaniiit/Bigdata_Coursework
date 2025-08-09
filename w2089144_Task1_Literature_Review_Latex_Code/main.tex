@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Literature Review of Big Data Techniques for Supplier Evaluation     %
+%  and Cost Optimization in Procurement                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt, onecolumn]{article}
+
+\title{\textbf{A Review of Big Data Techniques for Supplier Evaluation and Cost Optimization in Procurement}}
+
+\author{
+    \fontsize{11}{13}\selectfont 
+    \textit{Author's Name} \\
+    \fontsize{10}{11}\selectfont 
+    \textit{K.S. Vimasha}\\
+    \fontsize{10}{11}\selectfont 
+    \textit{Sri Lanka}\\
+    \fontsize{10}{11}\selectfont
+    \textit{w2089144@westminster.ac.uk}\\
+    \fontsize{10}{11}\selectfont
+    \textit{sahani.20221915@iit.ac.lk}\\
+    \and
+    \fontsize{11}{13}\selectfont 
+    \textit{Supervisor's Name}\\
+    \fontsize{10}{11}
+    \selectfont \textit{Achala Aponso}\\
+    \fontsize{10}{11}\selectfont 
+    \textit{Sri Lanka}\\
+    \fontsize{10}{11}\selectfont
+    \textit{achala.a@iit.ac.lk} \\
+}
+
+\date{}
+
+%%%%%%%%%%%%%%%%%
+% import packages %
+%%%%%%%%%%%%%%%%%
+\usepackage{lipsum}
+\usepackage{lmodern}
+
+\usepackage[
+layout=letterpaper, 
+paper=letterpaper, 
+portrait, 
+head=0.5in,
+foot=0.5in,
+top=1in, 
+bottom=1in, 
+left=0.75in, 
+right=0.75in
+]{geometry}
+
+\usepackage[english,brazilian]{babel}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\hspace{1em}Procurement functions are vital components of modern enterprises, responsible for managing supplier relationships, negotiating costs, and ensuring timely delivery of goods and services. However, organizations often face a wide range of procurement inefficiencies, including supplier inreliability, delivery delays, compliance violations, cost overruns, and quality defects. These inefficiencies are exacerbated by the complexity and volume of data generated throughout the procurement lifecycle.
+
+\vspace{\baselineskip}
+
+\hspace{1em}In global enterprises with diverse supply chains, procurement departments must process thousands of purchase orders, supplier transactions, and KPI metrics. The volume and heterogeneity of this data make it challenging to identify performance patterns or take timely corrective action using traditional analytics tools. Consequently, there is a growing need for Big Data Analytics (BDA) to streamline procurement operations, evaluate vendor performance, detect risks, and achieve cost efficiencies.
+
+\vspace{\baselineskip}
+
+\hspace{1em}This project focuses on optimizing procurement operations by leveraging Big Data Analytics on a real-world dataset containing procurement KPIs. The primary goal is to assess supplier performance, detect anomalies in delivery and defect rates, forecast delays, and recommend cost optimization strategies based on price trends and compliance metrics.
+
+\section{Literature Review}
+
+\vspace{\baselineskip}
+\noindent\textbf{Introduction}
+\vspace{\baselineskip}
+
+The application of Big Data analytics in procurement and supply chain management has gained considerable attention in recent years. The following review of the literature highlights current state-of-the-art research, technologies, methodologies, and challenges in this domain.
+
+\vspace{\baselineskip}
+\noindent\textbf{Big Data in Procurement and Supply Chain}
+\vspace{\baselineskip}
+
+Hallikas et al. (2021) emphasized the role of data analytics in enhancing digital procurement processes and improving supply chain performance. Their empirical study found that advanced analytics capabilities positively influence decision making, risk management, and supplier collaboration in procurement contexts [2].
+
+\vspace{\baselineskip}
+
+Zitianellis (2023) further quantified the impact of BDA capabilities on supply chain management using regression models and clustering techniques. The study demonstrated that firms with higher analytics maturity achieved better procurement cost savings and supplier risk mitigation [8].
+
+\vspace{\baselineskip}
+
+The study also emphasized the importance of cross-functional integration of data analytics across procurement, finance, and operations, enabling real-time insights for faster strategic sourcing decisions.
+\vspace{\baselineskip}
+
+In a systematic review, Wang et al. (2018) detailed the applications of industrial big data analytics in manufacturing and procurement, identifying delivery lead time prediction and vendor evaluation as two of the most promising use cases [10].
+
+\vspace{\baselineskip}
+\noindent\textbf{KPI-Based Supplier Evaluation}
+\vspace{\baselineskip}
+
+Bennett (2023) provided a detailed analysis of how procurement KPIs such as cost savings, timely delivery, and defect rates can be used to evaluate supplier performance using big data tools [3]. The research emphasized the importance of structuring data sets to enable the clustering of suppliers based on performance and risk attributes.
+
+\vspace{\baselineskip}
+The paper introduced the use of composite performance indices derived from weighted KPI scores, providing a scalable framework to objectively classify suppliers.
+\vspace{\baselineskip}
+
+Similarly, Mohammed (2023) employed predictive analytics and machine learning algorithms to assess the performance of the supplier in procurement. Their case study demonstrated how regression and classification models can accurately forecast procurement outcomes and identify under performing vendors [4].
+
+\vspace{\baselineskip}
+They also highlighted the potential of incorporating feedback loops into the system, allowing continuous learning and refinement of supplier scores based on new data points.
+\vspace{\baselineskip}
+
+\noindent\textbf{Cost Optimization and Negotiation Analytics}
+\vspace{\baselineskip}
+
+Negotiation is a critical component of procurement efficiency. Articles by Hallikas et al. [2] and the MDPI case study on the aviation industry [5] explored the integration of real-time pricing analysis and historical negotiation outcomes to improve procurement cost optimization. These studies showed that tracking negotiated price reductions and evaluating supplier pricing consistency can drive substantial savings.
+\vspace{\baselineskip}
+Additionally, dynamic pricing models powered by historical and market intelligence data have shown promise in enhancing procurement agility, especially for volatile commodities and emergency procurement scenarios.
+\vspace{\baselineskip}
+The use of AI-driven negotiation bots is emerging as a cutting-edge trend, capable of autonomously executing low-value, high-volume negotiations with predefined compliance constraints.
+\vspace{\baselineskip}
+
+
+\noindent\textbf{Compliance and Risk Management}
+\vspace{\baselineskip}
+
+Procurement compliance violations, such as policy breaches or delayed reporting, are often early indicators of broader systemic risks. The IJAID case study (2023) highlighted how data-driven compliance audits can uncover frequent offenders, trace root causes, and quantify the impact on procurement outcomes [4].
+
+\vspace{\baselineskip}
+
+Furthermore, the Springer Review on big data in supply chain optimization identified compliance analytics and risk scoring as two key applications of unsupervised learning models in procurement [7]. Clustering and anomaly detection techniques were recommended for identifying high-risk suppliers.
+
+\vspace{\baselineskip}
+These methods enable the early identification of procurement fraud, unethical sourcing, or vendor collusion, issues that can otherwise escalate into regulatory and reputational crises if left unchecked.
+
+\vspace{\baselineskip}
+In addition,on, blockchain-based procurement platforms are being research to improve transparency and auditability, with several pilot programs showing positive results in sectors such as pharmaceuticals and public procurement.
+\vspace{\baselineskip}
+
+
+\vspace{\baselineskip}
+\noindent\textbf{State-of-the-Art Technologies and Methodologies}
+\vspace{\baselineskip}
+
+Across the reviewed literature, several technologies were identified as state-of-the-art for Big Data in procurement.
+
+\begin{itemize}
+  \item Spark and Hadoop for distributed data processing (Wang et al., 2018) [10]
+  \item Python and Scikit-learn for machine learning (Mohammed, 2023) [4]
+  \item Power BI and Tableau for visual analytics (Hallikas et al., 2021) [2]
+  \item Clustering of KMeans for vendor segmentation (Bennett, 2023) [3]
+  \item Linear regression and decision trees for delivery forecasting (Zitianellis, 2023) [8]
+\end{itemize}
+
+In addition to these, the adoption of cloud-based data lakes and serverless computing (e.g., AWS Glue, Azure Synapse) is growing in procurement systems, offering scalability and flexibility in managing large datasets.
+\vspace{\baselineskip}
+Natural Language Processing (NLP) is also being applied to analyze unstructured data from supplier emails, contracts, and social media, providing early warning signals for disputes or performance concerns.
+\vspace{\baselineskip}
+Reinforcement learning models, though still in early adoption, are being explored for dynamic procurement strategies that adapt based on real-time supply chain fluctuations.
+ 
+
+\vspace{\baselineskip}
+\noindent\textbf{Challenges and Research Gaps}
+\vspace{\baselineskip}
+
+Despite improvements, several challenges persist:
+
+\begin{itemize}
+  \item \textbf{Data Quality Issues}: Missing values and inconsistent formats limit model accuracy [3, 4].
+  \item \textbf{Real-Time Data Integration}: Few systems support dynamic updates to procurement dashboards [5].
+  \item \textbf{Scalability}: While Spark offers scalability, many organizations lack the infrastructure to fully leverage it [10].
+  \item \textbf{Supplier Diversity and Bias}: Small supplier datasets can skew clustering models [1, 3].
+\end{itemize} 
+
+Another key concern is data privacy and security, especially when dealing with sensitive supplier pricing, compliance, and contractual information. Ensuring GDPR or HIPAA compliance (in healthcare supply chains) is essential for lawful analytics implementation.
+\vspace{\baselineskip}
+There is also a notable skills gap in many organizations, where procurement professionals may lack the data literacy needed to interpret analytics outputs effectively and make informed decisions.
+\vspace{\baselineskip}
+Future research must address these gaps by building robust pipelines that include imputation methods, real-time stream processing (e.g., Apache Kafka), and fairness-aware algorithms for supplier analysis.
+\vspace{\baselineskip}
+Furthermore, interdisciplinary collaboration between procurement experts, data scientists, and behavioral economists could lead to innovative models that account for non-quantifiable factors like negotiation behavior, supplier sentiment, and organizational culture.
+
+\section{\textbf{Conclusion}}
+
+The reviewed literature strongly supports the need for Big Data Analytics in modern procurement systems. By leveraging state-of-the-art tools and methodologies, organizations can unlock significant value from procurement data. This project builds on these foundations by using real-world KPI datasets to design a scalable analytics pipeline that evaluates supplier performance, forecasts delivery risks, and identifies opportunities for cost optimization.
+\section{\textbf{Conclusion}}
+This project builds on these foundations by using real-world KPI datasets to design a scalable analytics pipeline that evaluates supplier performance, forecasts delivery risks, and identifies opportunities for cost optimization.
+
+\section{References}
+
+\begin{itemize}
+  \item \textit{Supplier Recommendation in Online Procurement (2024)} \textbf{[1]}
+  \item \textit{Hallikas et al. (2021). Digitalizing procurement: the impact of data analytics on supply chain performance.} \textbf{[2]}
+  \item \textit{Bennett (2023). Procurement Analytics: Leveraging Big Data for Supplier Performance Evaluation and Cost Optimization.} \textbf{[3]}
+  \item \textit{Mohammed (2023). The Role of Data Analytics in Procurement and Supply Chain Optimization: A Case Study Approach.} \textbf{[4]}
+  \item \textit{MDPI (2023). Advanced Analytics and Data Management in the Procurement Function: An Aviation Industry Case Study.} \textbf{[5]}
+  \item \textit{Systematic Literature Review on Big Data in SCM (2022)} \textbf{[6]}
+  \item \textit{Springer (2023). Big data optimisation and management in supply chain management.} \textbf{[7]}
+  \item \textit{Zitianellis (2023). A Quantitative Analysis of Big Data Analytics Capabilities and Supply Chain Management.} \textbf{[8]}
+  \item \textit{Sustainable Supply Chain Analytics (2021)} \textbf{[9]}
+  \item \textit{Wang et al. (2018). Industrial Big Data Analytics: Challenges, Methodologies, and Applications.} \textbf{[10]}
+\end{itemize}
+ 
+
+\end{document}
